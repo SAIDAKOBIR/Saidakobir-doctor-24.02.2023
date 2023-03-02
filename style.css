@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&family=Raleway:wght@200;300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.oll{
+    width: 100%;
+    list-style-type: none;
+    font-family: Montserrat;
+}
+.biva{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url(/img/img.jpg);
+     width: 100%;
+     height: 110vh;
+}
+.biva_opacity{
+    width: 100%;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+.ul1{
+   display: flex;  
+   list-style-type: none;
+}
+li{
+    margin: 5%;
+}
+.button{
+  color: white;
+  background-color: rgb(0, 132, 255);
+  border: 0;
+  border-radius: 8px;
+  padding: 0 1%;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+.button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.one_two{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+   margin: 16.5% 0%;
+   width: 30%;
+   margin-right: 5%;
+   
+}
+.meet{
+    font-size: 330%;
+}
+.we{
+    width: 80%;
+    margin: 12% 0%;
+}
+.button1{
+    padding: 3% 8%;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-family:Montserrat ;
+    cursor: pointer;
+}
+.button1:hover{
+    color: black;
+    background-color: white;
+}
+.button2{
+    padding: 3% 8%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family:Montserrat ;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: white;
+    color: black;
+}
+
+.two{
+   margin: 7% 0% 10% 5%;
+   width: 20%;
+   height: 77vh;
+   color: black;
+   background-color: white;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.form{
+   margin:12%;
+   line-height: 2;
+}
+.button3{
+    padding: 5% 18%;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-family:Montserrat ;
+    cursor: pointer;
+    margin-top: 15%;
+}
+.button3:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+
+
+
+#ul{
+    display: flex;
+    line-height: 1.5;
+    justify-content: space-evenly;
+}
+.davra{
+    border-radius: 50%;
+    width: 20%;
+    background-color: white;
+}
+.fa-user-group{
+    background-color: white;
+    padding: 3% 3% 10% 3%;
+    width: 8%;
+    margin: 10%;
+    border-radius: 50%;
+    font-size: 120%;
+}
+li{
+    list-style-type: none;
+}
+
+.finish{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-face-grin-beam{
+    margin-right: 5%;
+    font-size: 120%;
+}
+.opp{
+    padding-top: 3%;
+    height: 8vh;
+    text-align: center;
+    background-color: rgba(34, 30, 30, 0.26);
+}
